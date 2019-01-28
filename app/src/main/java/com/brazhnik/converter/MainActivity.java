@@ -23,10 +23,13 @@ public class MainActivity extends AppCompatActivity {
                 double rubles, dollars;
                 String rublesText = etMoney.getText().toString();
                 rubles = Double.parseDouble(rublesText);
-                dollars = rubles/60;
-                String dollarsText = Double.toString(dollars);
-                String result = getString(R.string.result, dollarsText);
-                tvResult.setText(result);
+                if (rubles % 60 != 0) {
+                    dollars = rubles / 60;
+                    tvResult.setText(getString(R.string.t_result) + String.format("%.2f", +dollars).replace(",", "."));
+                } else {
+                    dollars = rubles / 60;
+                    tvResult.setText(getString(R.string.t_result) + String.format("%.0f", +dollars));
+                }
             }
         });
     }
