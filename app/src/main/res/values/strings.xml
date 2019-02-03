@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Converter</string>
     <string name="convert_button">Convert!</string>
-    <string name="t_result">Result:</string>
+    <string name="t_result">Result: %1$s</string>
     <string name="t_support">Enter value</string>
+    <string name="text_result">Result:</string>
+    <string name="t_zero_error">Enter a value greater than zero</string>
+    <string-array name="sp_currency">
+        <item>RUB</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </string-array>
 </resources>

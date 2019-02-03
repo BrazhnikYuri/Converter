@@ -38,6 +38,19 @@
 
         </android.support.design.widget.TextInputLayout>
 
+        <Spinner
+            android:id="@+id/first_currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/sp_currency"
+            />
+
+        <Spinner
+            android:id="@+id/second_currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/sp_currency"
+            />
 
         <Button
             android:id="@+id/btn_convert"
