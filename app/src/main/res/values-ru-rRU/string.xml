@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Конвертер</string>
+    <string name="convert_button">Конвертировать!</string>
+    <string name="t_result">Результат: %1$s</string>
+    <string name="t_support">Введите количество</string>
+    <string name="text_result">Результат:</string>
+    <string name="t_zero_error">Введите число больше нуля!</string>
+    <string name="t_null_error">Введите значение!</string>
+    <string-array name="sp_currency">
+        <item>Рубль</item>
+        <item>Доллар</item>
+        <item>Евро</item>
+    </string-array>
+</resources>
